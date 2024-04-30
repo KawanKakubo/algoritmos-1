@@ -2,6 +2,7 @@
 
 int main () {
 	float nota;
+	
 	do {
 		printf("Informe sua nota: ");
 		scanf("%f", &nota);
