@@ -24,15 +24,14 @@ int main () {
         if (olhos == 1) olhos_azuis++;
     }
 
-    printf("Maior idade: %d\n", maior_idade);
     if (total_feminino > 0) {
         printf("%% de mulheres 18-35 com cabelos castanhos: %.2f%%\n", 
                (double)fem_18_35_castanhos / total_feminino * 100);
-        printf("Média de idade das mulheres: %.2f\n", 
+        printf("Mï¿½dia de idade das mulheres: %.2f\n", 
                (double)soma_idade_feminino / total_feminino);
     }
     printf("Homens > 21 anos: %d\n", homens_21);
-    printf("Indivíduos com olhos azuis: %d\n", olhos_azuis);
+    printf("Indivï¿½duos com olhos azuis: %d\n", olhos_azuis);
 
     return 0;
 }
